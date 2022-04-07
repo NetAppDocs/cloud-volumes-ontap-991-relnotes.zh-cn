@@ -80,7 +80,7 @@ sidebar:
   - title: 云提供商集成
     url: "/reference-provider-integrations.html"
   - title: 法律声明
-    url: "/reference-legal-notices.html"
+    url: "/legal-notices.html"
 homepage:
   tiles:
   - title: 入门
