@@ -6,6 +6,7 @@ summary: Azure 支持多种 Cloud Volumes ONTAP 配置。
 ---
 = Azure 中支持的配置
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 
@@ -48,6 +49,7 @@ Cloud Volumes ONTAP 在 Azure 中可作为单节点系统和高可用性（ HA �
 * E32S_v3 ^2^
 * E48s_v3 ^2^
 * E64is_v3 ^2^
+* E80ids_v4 ^2^
 * L8s_v2 ^3^
 
  a| 
@@ -65,6 +67,7 @@ Cloud Volumes ONTAP 在 Azure 中可作为单节点系统和高可用性（ HA �
 * E32S_v3 ^2^
 * E48s_v3 ^2^
 * E64is_v3 ^2^
+* E80ids_v4 ^2^
 
  a| 
 * DS4_v2
@@ -77,6 +80,7 @@ Cloud Volumes ONTAP 在 Azure 中可作为单节点系统和高可用性（ HA �
 * E32S_v3 ^2^
 * E48s_v3 ^2^
 * E64is_v3 ^2^
+* E80ids_v4 ^2^
 * L8s_v2 ^3^
 
  a| 
@@ -90,6 +94,7 @@ Cloud Volumes ONTAP 在 Azure 中可作为单节点系统和高可用性（ HA �
 * E32S_v3 ^2^
 * E48s_v3 ^2^
 * E64is_v3 ^2^
+* E80ids_v4 ^2^
 * L8s_v2 ^3^
 
 
