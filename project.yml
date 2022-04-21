@@ -35,7 +35,7 @@ settings:
   - name: Cloud Volumes ONTAP
     url: "/cloud-volumes-ontap-94-relnotes"
     version-number: '9.4'
-  - name: Cloud Volumes ONTAP
+  - name: ONTAP 云
     url: "/cloud-volumes-ontap-93-relnotes"
     version-number: '9.3'
   langs: zh-cn,us-en,ja-jp,ko-kr
