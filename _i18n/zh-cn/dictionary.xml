@@ -447,7 +447,6 @@
   <block id="0b9dfa1d6e582593bcd75a94bfaa5add" category="list-text">E48s_v3 ^1^</block>
   <block id="195512f323b29b79f5b71cceb3a49a7d" category="list-text">E80ids_v4 ^2^</block>
   <block id="8dbeeeefc901c0dbb39a9c1332aaeeb9" category="cell">高级页面 Blobs</block>
-  <block id="937cb82fad9af153ff18d3ee14caebd5" category="list-text">使用 HA 对时， Cloud Volumes ONTAP 支持对这些 VM 类型使用较高的写入速度。使用单节点系统时，所有实例类型均支持高写入速度。<block ref="18805b87db41583a67ecc2414d022f2b" category="inline-link-rx"></block>。</block>
   <block id="4efc25f6cc7013d95ca2f5ab1dcc3366" category="list-text">只有在需要 Azure 维护控制时，才建议使用此虚拟机。由于定价较高，因此不建议用于任何其他使用情形。</block>
   <block id="d642bc6852e213242f2c21d17b6d3e43" category="list-text">Azure 中的 HA 对不支持 PAYGO Explore 。</block>
   <block id="88d444d836b2ea3ca342f4cc3a6b2b50" category="paragraph">在 Azure 中，一个聚合最多可以包含 12 个类型和大小相同的磁盘。</block>
@@ -716,7 +715,6 @@
   <block id="398d7dd4fa02e30dc6322ad98eff7d2b" category="paragraph">您可以在中找到 ONTAP 软件的已知问题<block ref="13c0668cefb5d13050e1de01793dacbb" category="inline-link-rx"></block>。</block>
   <block id="3d699aa8349e33b8a9652ee305f6d287" category="summary">本发行说明介绍了 Cloud Volumes ONTAP 9.1.1 的新增功能，限制和已知问题。</block>
   <block id="3038b42d926aec9bac53fd1e64d34154" category="doc">《 Cloud Volumes ONTAP 9.9.1 发行说明》</block>
-  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有 Cloud Manager 文档</block>
   <block id="da38098873cb3db962a9491ab33ff93d" category="sidebar">发行说明主页</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="4847e034bb0a55fcbc8a3380d6a3ab80" category="sidebar">AWS</block>
@@ -767,4 +765,7 @@
   <block id="4c0101d6e580cc73498085272f84779c" category="paragraph">如果您的Connector运行的是3.9.13或更高版本、则现在可以在Microsoft Azure中为Cloud Volumes ONTAP 提供9.9.1 P8修补程序。Cloud Manager 将提示您将现有系统升级到此修补程序版本。</block>
   <block id="a5757ef07045a814bda504c5b48177c6" category="inline-link">查看 P8 修补程序中已修复的错误列表</block>
   <block id="25d11917417ee6320483ef20f056b14c" category="paragraph"><block ref="99e171e9eff5188da0e63d2b7cd3c805" category="inline-link-rx"></block> （需要登录 NetApp 支持站点）。</block>
+  <block id="0d8238cb20fb41ede1eb68d45d598c4f" category="list-text">使用单节点系统时，所有实例类型均支持高写入速度。您可以在部署期间或之后的任何时间从Cloud Manager启用高写入速度。<block ref="18805b87db41583a67ecc2414d022f2b" category="inline-link-rx"></block>。</block>
+  <block id="4e1b6146fa2cb1efc8bff10f1cf7e93c" category="list-text">E80ids_v4 ^1、2^</block>
+  <block id="7ddea5d9f1e01b01ba11b40da7046d95" category="list-text">使用 HA 对时， Cloud Volumes ONTAP 支持对这些 VM 类型使用较高的写入速度。您可以在部署期间或之后的任何时间从Cloud Manager启用高写入速度。<block ref="18805b87db41583a67ecc2414d022f2b" category="inline-link-rx"></block>。</block>
 </blocks>
