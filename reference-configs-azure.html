@@ -711,7 +711,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-18 17:11:23 +0000">04/18/2022</time>
+    <time datetime="2022-06-08 22:04:34 +0000">06/08/2022</time>
     
   
 
@@ -959,6 +959,9 @@
 <p>此 VM 类型包括本地 NVMe 存储， Cloud Volumes ONTAP 使用此存储作为 <em>Flash Cache</em> 。Flash Cache 通过实时智能缓存最近读取的用户数据和 NetApp 元数据来加快数据访问速度。它适用于随机读取密集型工作负载，包括数据库，电子邮件和文件服务。必须在所有卷上禁用数据压缩，才能利用 Flash Cache 性能改进功能。 <a href="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-flash-cache.html" target="_blank" rel="noopener">"了解更多信息。"</a>。</p>
 </li>
 <li>
+<p>使用单节点系统时，所有实例类型均支持高写入速度。您可以在部署期间或之后的任何时间从Cloud Manager启用高写入速度。 <a href="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-write-speed.html" target="_blank" rel="noopener">"了解有关选择写入速度的更多信息"</a>。</p>
+</li>
+<li>
 <p>使用 SSD 时会启用增强的写入性能。</p>
 </li>
 <li>
@@ -1029,7 +1032,7 @@
 <p>E48s_v3 <sup>1</sup></p>
 </li>
 <li>
-<p>E80ids_v4 <sup>2</sup></p>
+<p>E80ids_v4 <sup>1、2</sup></p>
 </li>
 </ul>
 </div></div></td>
@@ -1061,7 +1064,7 @@
 <p>E48s_v3 <sup>1</sup></p>
 </li>
 <li>
-<p>E80ids_v4 <sup>2</sup></p>
+<p>E80ids_v4 <sup>1、2</sup></p>
 </li>
 </ul>
 </div></div></td>
@@ -1089,7 +1092,7 @@
 <p>E48s_v3 <sup>1</sup></p>
 </li>
 <li>
-<p>E80ids_v4 <sup>2</sup></p>
+<p>E80ids_v4 <sup>1、2</sup></p>
 </li>
 </ul>
 </div></div></td>
@@ -1117,7 +1120,7 @@
 <p>E48s_v3 <sup>1</sup></p>
 </li>
 <li>
-<p>E80ids_v4 <sup>2</sup></p>
+<p>E80ids_v4 <sup>1、2</sup></p>
 </li>
 </ul>
 </div></div></td>
@@ -1134,7 +1137,7 @@
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>使用 HA 对时， Cloud Volumes ONTAP 支持对这些 VM 类型使用较高的写入速度。使用单节点系统时，所有实例类型均支持高写入速度。 <a href="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-write-speed.html" target="_blank" rel="noopener">"了解有关选择写入速度的更多信息"</a>。</p>
+<p>使用 HA 对时， Cloud Volumes ONTAP 支持对这些 VM 类型使用较高的写入速度。您可以在部署期间或之后的任何时间从Cloud Manager启用高写入速度。 <a href="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-write-speed.html" target="_blank" rel="noopener">"了解有关选择写入速度的更多信息"</a>。</p>
 </li>
 <li>
 <p>只有在需要 Azure 维护控制时，才建议使用此虚拟机。由于定价较高，因此不建议用于任何其他使用情形。</p>
