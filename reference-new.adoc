@@ -109,9 +109,9 @@ Cloud Volumes ONTAP 9.9.1 候选版本现已在 AWS ， Azure 和 Google 云平�
 
 除了提供的功能之外，还提供了 https://library.netapp.com/ecm/ecm_download_file/ECMLP2492508["ONTAP 9.9.1"^]，此版本的 Cloud Volumes ONTAP 包括以下内容：
 
-*  S3 support in Azure
-*  performance in AWS with high write speed
-*  boot disk in AWS
+* <<Azure 中的 ONTAP S3 支持>>
+* <<在 AWS 中提高性能并提高写入速度>>
+* <<AWS 中的 IO2 启动磁盘>>
 
 
 

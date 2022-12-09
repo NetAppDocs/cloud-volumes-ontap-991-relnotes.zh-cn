@@ -203,7 +203,6 @@
   <block id="b5050f17750ec84285bec219771841c4" category="section-title">Google Private Service Connect 限制</block>
   <block id="9fb3c7aadbb59d428d3c01efb5689f4b" category="inline-link">Google Private Service Connect</block>
   <block id="7af98a0e0cd62cd4ddc103341d51fda2" category="inline-link">Cloud Manager API 端点</block>
-  <block id="948671a13623cbbc9f65ca511ed257a3" category="paragraph">如果您充分利用<block ref="e066b15eeebd4e6d571fd7dd588f94f7" category="inline-link-rx"></block> 在要将 Cloud Volumes ONTAP 部署到的 VPC 中，您需要实施 DNS 记录，以便将流量转发到所需的<block ref="acf94572d3bfe8bd5bc5166d196eeacc" category="inline-link-rx"></block>。</block>
   <block id="406156e49006d700786c581646d94504" category="paragraph">目前， Private Service Connect 不支持将数据从 Cloud Volumes ONTAP 分层到 Google 云存储分段。</block>
   <block id="7bb35241d1246d5dc87cb9e61c1efc05" category="summary">这些已知限制特定于 Microsoft Azure 中的 Cloud Volumes ONTAP 。</block>
   <block id="2d9da48a9b4a4fd6966adc9c52393b79" category="doc">Azure 中的已知限制</block>
@@ -214,9 +213,6 @@
   <block id="2d62580dcf116f839bad7027ac992878" category="list-text">不支持 NFSv4 。支持 NFSv3 。</block>
   <block id="b1969fa9ebe4dd2003618adb77082978" category="list-text">某些地区不支持 HA 对。</block>
   <block id="1538d38eb23a96781db500ec7bd30195" category="inline-link">请参见支持的 Azure 区域列表</block>
-  <block id="f5b8e6c4c4b082cf610f078e361a727f" category="paragraph"><block ref="1f129df010c594cb0d37bd30745a3820" category="inline-link-rx"></block>。</block>
-  <block id="e4f5b6f59db7bfa0e08c02262ddbd654" category="section-title">按需购买不适用于 CSP 合作伙伴</block>
-  <block id="f2ff5834d93c258f0fc4ad6cf6a17942" category="paragraph">如果您是 Microsoft Cloud 解决方案 Provider （ CSP ）合作伙伴，则无法部署 Cloud Volumes ONTAP Explore ，标准版或高级版，因为 CSP 合作伙伴不支持按需购买订阅。您必须购买许可证并部署 Cloud Volumes ONTAP BYOL 。</block>
   <block id="5520e32d61a58dff51fc6730939c3baf" category="summary">Cloud Volumes ONTAP 在 Google Cloud 中设置了存储配置限制，以提供可靠的操作。为获得最佳性能，请勿将系统配置为最大值。</block>
   <block id="c73908091fadeb9dec16abab42821644" category="doc">Google Cloud 中的存储限制</block>
   <block id="b5110a96ee31f0d84f4df3d51e44588e" category="paragraph">对于某些配置，磁盘限制会阻止您单独使用磁盘来达到容量限制。您可以通过达到容量限制<block ref="91a4fc4ecb983c2fca7588f26341e223" category="inline-link-rx"></block>。有关详细信息，请参见以下磁盘限制。</block>
@@ -459,7 +455,6 @@
   <block id="a5a1e4029969159a5f8fdeddd3fb7e1b" category="paragraph">不支持所有其他位置，版本，配置和许可证。</block>
   <block id="38220a2514a2fcb218be440c035b4175" category="section-title">Cloud Volumes ONTAP 支持预留和按需 VM 实例</block>
   <block id="8ce602039d8c7d53c95e1f62b1d83ef0" category="paragraph">Cloud Volumes ONTAP 可以在云提供商提供的预留或按需 VM 实例上运行。不支持其他类型的 VM 实例。</block>
-  <block id="207289e471510410b8d11da3001f65d7" category="section-title">不应使用自动应用程序资源管理解决方案</block>
   <block id="f9492a63b4f60679d003c1e9c0ebbb18" category="paragraph">自动应用程序资源管理解决方案不应管理 Cloud Volumes ONTAP 系统。这样做可能会导致更改不受支持的配置。例如，解决方案可能会将 Cloud Volumes ONTAP 更改为不受支持的 VM 实例类型。</block>
   <block id="1d7a5501cfb31aff808abb63ef9085c2" category="section-title">软件更新必须由 Cloud Manager 完成</block>
   <block id="93e3c3d0ea43d600b3c3cd4548ea3987" category="paragraph">Cloud Volumes ONTAP 升级必须从 Cloud Manager 完成。您不应使用 System Manager 或命令行界面升级 Cloud Volumes ONTAP 。这样做可能会影响系统稳定性。</block>
@@ -672,4 +667,11 @@
   <block id="09ea0908fbfc4cde85bf416e35dc55c8" category="inline-link-macro">NetApp 支持</block>
   <block id="0b55c70d5652d8fe1f5ddc75633eaa95" category="paragraph">请参见 <block ref="0bcfd67fb2b966e3378fbf640ee81a22" category="inline-link-macro-rx"></block> 了解有关这些实例类型的可用性和支持终止的更多信息。</block>
   <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有 Cloud Manager 文档</block>
+  <block id="2819feead2b07762a4465189ab8b2f52" category="paragraph-title">对于 HA 对，是每个节点的许可容量限制还是整个 HA 对的许可容量限制？</block>
+  <block id="7093c2c9844cf46dcd5d50c6d596d244" category="paragraph-title">对于 HA 对，镜像数据是否计入许可的容量限制？</block>
+  <block id="dbe94f36417009d827f76ccf107bd90c" category="section-title">不应使用自动应用程序资源管理解决方案</block>
+  <block id="2f9882645b2c32820ad085240bacb763" category="paragraph-title">对于 HA ，是每个节点的许可证容量限制还是整个 HA 对的许可证容量限制？</block>
+  <block id="da934d10ecc6d50a861d9470630d4989" category="paragraph">如果您充分利用<block ref="e066b15eeebd4e6d571fd7dd588f94f7" category="inline-link-rx"></block> 在要将 Cloud Volumes ONTAP 部署到的 VPC 中，您需要实施 DNS 记录，以便将流量转发到所需的<block ref="c291f5ab92cbab017e6f29ee8a0edb54" category="inline-link-rx"></block>。</block>
+  <block id="fc9a388cd18c69244f22554de6f0d544" category="paragraph-title">对于 AWS 中的 HA 系统，镜像数据是否计入容量限制？</block>
+  <block id="1f129df010c594cb0d37bd30745a3820" category="paragraph"><block ref="1f129df010c594cb0d37bd30745a3820" category="inline-link-rx"></block></block>
 </blocks>
