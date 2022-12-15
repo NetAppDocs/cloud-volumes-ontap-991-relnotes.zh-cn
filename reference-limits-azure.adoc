@@ -22,7 +22,7 @@ Cloud Volumes ONTAP 具有存储配置限制，可提供可靠的操作。为获
 
 Cloud Volumes ONTAP 系统的最大系统容量取决于其许可证。最大系统容量包括基于磁盘的存储以及用于数据分层的对象存储。
 
-NetApp 不支持超过系统容量限制。如果您达到许可的容量限制， Cloud Manager 将显示一条需要执行操作消息，并且不再允许您添加其他磁盘。
+NetApp 不支持超过系统容量限制。如果您达到许可的容量限制、BlueXP将显示一条需要执行操作消息、并且不再允许您添加其他磁盘。
 
 [cols="25,75"]
 |===
@@ -385,7 +385,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-managing-sv
 |===
 注释：
 
-. Cloud Manager 不为 SVM 灾难恢复提供任何设置或业务流程支持。它也不支持在其他 SVM 上执行与存储相关的任务。必须使用 System Manager 或 CLI 进行 SVM 灾难恢复。
+. BlueXP不为SVM灾难恢复提供任何设置或编排支持。它也不支持在其他 SVM 上执行与存储相关的任务。必须使用 System Manager 或 CLI 进行 SVM 灾难恢复。
 +
 ** https://library.netapp.com/ecm/ecm_get_file/ECMLP2839856["《 SVM 灾难恢复准备快速指南》"^]
 ** https://library.netapp.com/ecm/ecm_get_file/ECMLP2839857["《 SVM 灾难恢复快速指南》"^]

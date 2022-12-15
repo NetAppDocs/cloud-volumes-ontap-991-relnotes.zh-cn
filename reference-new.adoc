@@ -16,7 +16,7 @@ summary: Cloud Volumes ONTAP 9.9.1 提供了几项新功能和增强功能。
 [role="lead"]
 Cloud Volumes ONTAP 9.9.1 提供了几项新功能和增强功能。
 
-最新版本的 Cloud Manager 还引入了其他功能和增强功能。请参见 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["Cloud Manager 发行说明"^] 了解详细信息。
+最新版本的BlueXP还引入了其他功能和增强功能。请参见 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["《BlueXP发行说明》"^] 了解详细信息。
 
 
 
@@ -32,7 +32,7 @@ link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-change
 
 == 9.9.1 P8 (2022年5月15日)
 
-如果您的Connector运行的是3.9.13或更高版本、则现在可以在Microsoft Azure中为Cloud Volumes ONTAP 提供9.9.1 P8修补程序。Cloud Manager 将提示您将现有系统升级到此修补程序版本。
+如果您的Connector运行的是3.9.13或更高版本、则现在可以在Microsoft Azure中为Cloud Volumes ONTAP 提供9.9.1 P8修补程序。BlueXP将提示您将现有系统升级到此修补程序版本。
 
 https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.9.1P8["查看 P8 修补程序中已修复的错误列表"^] （需要登录 NetApp 支持站点）。
 
@@ -40,7 +40,7 @@ https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downl
 
 == 9.9.1 P7 （ 2022 年 2 月 21 日）
 
-现在，如果您的 Connector 运行的是 3.9.15 或更高版本，则可以在 Microsoft Azure 中为 Cloud Volumes ONTAP 提供 9.9.1 P7 修补程序。Cloud Manager 将提示您将现有系统升级到此修补程序版本。
+现在，如果您的 Connector 运行的是 3.9.15 或更高版本，则可以在 Microsoft Azure 中为 Cloud Volumes ONTAP 提供 9.9.1 P7 修补程序。BlueXP将提示您将现有系统升级到此修补程序版本。
 
 https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.9.1P7["查看 P7 修补程序中已修复的错误列表"^] （需要登录 NetApp 支持站点）。
 
@@ -54,7 +54,7 @@ Cloud Volumes ONTAP 提供了两个新修补程序：
 * Microsoft Azure 中的 9.9.1 P3
 
 
-Cloud Manager 将提示您将现有系统升级到这些修补程序版本。
+BlueXP将提示您将现有系统升级到这些修补程序版本。
 
 * https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.9.1P6["查看 P6 修补程序中已修复的错误列表"^] （需要登录 NetApp 支持站点）
 * https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.9.1P3["查看 P3 修补程序中已修复的错误列表"^] （需要登录 NetApp 支持站点）
@@ -66,13 +66,13 @@ Cloud Manager 将提示您将现有系统升级到这些修补程序版本。
 
 Cloud Volumes ONTAP 9.9.1 的通用版本（ GA ）现已推出。GA 版本包含错误修复。
 
-Cloud Manager 将提示您升级运行以下任一版本的现有系统： 9.9.1 Release candidate ， 9.0.0 或 9.8 。
+BlueXP将提示您升级运行以下任一版本的现有系统：9.9.1候选版本、9.0.0或9.8。
 
 
 
 == 9.9.1 更新（ 2021 年 7 月 7 日）
 
-Cloud Manager 3.9.8 版引入了以下变更。
+BlueXP 3.9.8版引入了以下变更。
 
 * Cloud Volumes ONTAP 提供了新的充电方法。
 +
@@ -91,13 +91,13 @@ link:concept-licensing.html["详细了解这些许可选项"]。
 
 
 
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["详细了解 Cloud Manager 中的新增功能"^]。
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["详细了解BlueXP中的新增功能"^]。
 
 
 
 == 9.9.1 更新（ 2021 年 6 月 3 日）
 
-最近的 Cloud Manager 3.9.7 版支持一个新的专业软件包，通过该软件包，您可以使用 AWS Marketplace 提供的年度合同捆绑 Cloud Volumes ONTAP 和 Cloud Backup Service 。
+最新的BlueXP 3.9.7版支持一个新的专业软件包、通过该软件包、您可以使用AWS Marketplace提供的年度合同捆绑Cloud Volumes ONTAP 和Cloud Backup Service。
 
 link:reference-configs-aws.html["了解有关此许可选项的更多信息。"]
 
@@ -124,7 +124,7 @@ Cloud Volumes ONTAP 9.9.1 候选版本现已在 AWS ， Azure 和 Google 云平�
 
 * 采用 Cloud Volumes ONTAP 的 ONTAP S3 的主要用例是通用对象存储。
 * 目前， AWS 或 Google Cloud 中的 Cloud Volumes ONTAP 不支持 S3 协议。
-* Cloud Manager 不为 ONTAP S3 功能提供任何管理功能。
+* BlueXP不为ONTAP S3功能提供任何管理功能。
 
 
 最好使用命令行界面从 Cloud Volumes ONTAP 配置 S3 客户端访问。有关详细信息，请参见 http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-s3-cg/home.html["《 S3 配置高级指南》"^]。
@@ -143,18 +143,18 @@ Cloud Volumes ONTAP 9.9.1 候选版本现已在 AWS ， Azure 和 Google 云平�
 
 
 
-== 所需版本的 Cloud Manager Connector
+== 所需版本的BlueXP Connector
 
-要部署新的 Cloud Volumes ONTAP 9.9.1 系统并将现有系统升级到 9.9.1 ， Cloud Manager Connector 必须运行 3.9.6 或更高版本。
+要部署新的Cloud Volumes ONTAP 9.9.1系统并将现有系统升级到9.9.1、BlueXP Connector必须运行3.9.6或更高版本。
 
 
 
 == 升级说明
 
-* Cloud Volumes ONTAP 升级必须从 Cloud Manager 完成。您不应使用 System Manager 或命令行界面升级 Cloud Volumes ONTAP 。这样做可能会影响系统稳定性。
-* 您可以从 9.9.0 版和 9.8 版升级到 Cloud Volumes ONTAP 9.9.1 版。Cloud Manager 将提示您将现有 Cloud Volumes ONTAP 9.9.0 和 9.8 系统升级到 9.9.1 版本。
+* 必须从BlueXP完成Cloud Volumes ONTAP 升级。您不应使用 System Manager 或命令行界面升级 Cloud Volumes ONTAP 。这样做可能会影响系统稳定性。
+* 您可以从 9.9.0 版和 9.8 版升级到 Cloud Volumes ONTAP 9.9.1 版。BlueXP将提示您将现有的Cloud Volumes ONTAP 9.9.0和9.8系统升级到9.9.1版本。
 +
-http://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-updating-ontap-cloud.html["了解在 Cloud Manager 通知您时如何升级"^]。
+http://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-updating-ontap-cloud.html["了解在收到BlueXP通知时如何升级"^]。
 
 * 升级单节点系统会使系统脱机长达 25 分钟，在此期间 I/O 会中断。
 * 升级 HA 对无中断， I/O 不会中断。在此无中断升级过程中，每个节点会同时进行升级，以继续为客户端提供 I/O 。
