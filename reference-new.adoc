@@ -20,16 +20,6 @@ Cloud Volumes ONTAP 9.9.1 提供了几项新功能和增强功能。
 
 
 
-== 不再支持c4、m4和r4实例(2022年10月28日)
-
-在AWS中、Cloud Volumes ONTAP 不再支持C4、M4和M4 EC2实例类型。如果现有系统运行的是C4、M4或r4实例类型、则必须更改为c5、M5或R5实例系列中的实例类型。
-
-link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-change-ec2-instance.html["了解如何更改Cloud Volumes ONTAP 的EC2实例类型"^]。
-
-请参见 link:https://mysupport.netapp.com/info/communications/ECMLP2880231.html["NetApp 支持"^] 了解有关这些实例类型的可用性和支持终止的更多信息。
-
-
-
 == 9.9.1 P8 (2022年5月15日)
 
 如果您的Connector运行的是3.9.13或更高版本、则现在可以在Microsoft Azure中为Cloud Volumes ONTAP 提供9.9.1 P8修补程序。BlueXP将提示您将现有系统升级到此修补程序版本。
@@ -158,6 +148,14 @@ http://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-updating-ontap-clou
 
 * 升级单节点系统会使系统脱机长达 25 分钟，在此期间 I/O 会中断。
 * 升级 HA 对无中断， I/O 不会中断。在此无中断升级过程中，每个节点会同时进行升级，以继续为客户端提供 I/O 。
+* 在AWS中、新的Cloud Volumes ONTAP部署不再支持C4、M4和R4 EC2实例类型。如果现有系统运行的是C4、M4或r4实例类型、则必须更改为c5、M5或R5实例系列中的实例类型。如果无法更改实例类型、则需要在升级之前启用增强型网络连接。
++
+link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-updating-ontap-cloud.html#upgrades-in-aws-with-c4-m4-and-r4-ec2-instance-types["了解如何在具有C4、M4和R4 EC2实例类型的AWS中升级^。"]
+link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-change-ec2-instance.html["了解如何更改Cloud Volumes ONTAP 的EC2实例类型"^]。
+
++
+请参见 link:https://mysupport.netapp.com/info/communications/ECMLP2880231.html["NetApp 支持"^] 了解有关这些实例类型的可用性和支持终止的更多信息。
+
 
 
 
