@@ -672,7 +672,7 @@ The one data-serving SVM spans the entire Cloud Volumes ONTAP system (HA pair or
   <block id="2dbd9a217bce4c7ba4ef467f57d6875c" category="list-text">您可以为Cloud Volumes ONTAP BYOL单节点或HA对系统购买多个基于节点的许可证、以分配368 TiB以上的容量、最高可达到测试和支持的最大系统容量限制2 PIB。请注意，磁盘限制可能会阻止您单独使用磁盘来达到容量限制。您可以通过超出磁盘限制<block ref="aea0958203307daa433f894622f3e640" category="inline-link-rx"></block>。<block ref="ca37ce4dde5616ef242d545490c7e6ee" category="inline-link-rx"></block>。尽管Cloud Volumes ONTAP支持的最大测试和支持系统容量为2 PIB、但超过2 PIB限制将导致系统配置不受支持。</block>
   <block id="de9d6749570efc87e63811b5947fc250" category="list-text">从Cloud Volumes ONTAP 9.12.1开始、AWS机密云和Top机密云区域支持购买多个基于节点的许可证。</block>
   <block id="fbf9b099d9ec8deac1671938fd60e8f8" category="list-text">在AWS中、新的Cloud Volumes ONTAP部署不再支持C4、M4和R4 EC2实例类型。如果现有系统运行的是C4、M4或r4实例类型、则必须更改为c5、M5或R5实例系列中的实例类型。如果无法更改实例类型、则需要在升级之前启用增强型网络连接。</block>
-  <block id="e6567e962bca159fe4fe2d30a50079b1" category="inline-link-macro">了解如何在具有C4、M4和R4 EC2实例类型的AWS中升级^。</block>
-  <block id="25b6ed6b9d928059099051d0094805bd" category="paragraph"><block ref="14ef78ffd73c19fb64f58a6e03889f5c" category="inline-link-macro-rx"></block>
+  <block id="e1ec06a3bd4a559443a88f1cb6736c26" category="inline-link-macro">了解如何在具有C4、M4和R4 EC2实例类型的AWS中升级</block>
+  <block id="f295c0f45a8e22a4e4db9141680cce76" category="paragraph"><block ref="0fa12a627192b6cd097b12cd8088afe0" category="inline-link-macro-rx"></block>。
 <block ref="3f0e03f473a215943c109dc7746cdb60" category="inline-link-macro-rx"></block>。</block>
 </blocks>
