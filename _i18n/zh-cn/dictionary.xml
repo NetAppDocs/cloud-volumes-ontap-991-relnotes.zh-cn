@@ -277,7 +277,6 @@
   <block id="a1834fbcd2847d469ef79f5526dcee65" category="inline-link">有关 EC2 实例类型的最新完整详细信息，请参见 AWS</block>
   <block id="98ade5346ada08656e0c7b517b695d0f" category="paragraph">每个 Cloud Volumes ONTAP 许可证支持不同的 EC2 实例类型。为方便起见，下表显示了每个受支持实例类型的 vCPU ， RAM 和带宽。<block ref="7fe5ce03f92ccda8dcb0aa0fab836a1f" category="inline-link-rx"></block>。</block>
   <block id="c7d741925ef81824617c6a2975104e27" category="inline-link">NetApp 技术报告 4383 ：使用应用程序工作负载在 Amazon Web Services 中对 Cloud Volumes ONTAP 进行性能特征描述</block>
-  <block id="5070622feb6e4e88eeee7983bad01de6" category="paragraph">下表中显示的带宽与每个实例类型的 AWS 限制一致。这些限制与 Cloud Volumes ONTAP 所能提供的功能不完全一致。有关预期性能，请参见<block ref="21181a62240b2a52719451cc8d855312" category="inline-link-rx"></block>。</block>
   <block id="4a7243646d30fc1e81eca2df9826cc03" category="cell">支持的实例</block>
   <block id="5d56dbd20d9ee1ab8a722ff12e331953" category="cell">vCPU</block>
   <block id="e53619c1fe611a51eeeb8d148ba6e532" category="cell">RAM</block>
@@ -588,10 +587,8 @@
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 社区</block>
   <block id="ff6c37cbc252e306a6b4e390ec13cbc1" category="sidebar">Cloud Central 博客</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">云网络研讨会</block>
-  <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="sidebar">Cloud Volumes ONTAP</block>
   <block id="84c132b976f487cccd3001ed2c7557f2" category="cell">* 基于容量的 PAYGO 或 BYOL* ^3^</block>
   <block id="15e276b5f20d3f04c4dde66ecf8a249c" category="cell">* 基于节点的 PAYGO*</block>
-  <block id="dea335c9c6f638eb584011e253ad6ca1" category="sidebar">ONTAP 云</block>
   <block id="e0b13ea645feb48ac220b0833d3df83a" category="section-title">9.9.1 P8 (2022年5月15日)</block>
   <block id="a5757ef07045a814bda504c5b48177c6" category="inline-link">查看 P8 修补程序中已修复的错误列表</block>
   <block id="25d11917417ee6320483ef20f056b14c" category="paragraph"><block ref="99e171e9eff5188da0e63d2b7cd3c805" category="inline-link-rx"></block> （需要登录 NetApp 支持站点）。</block>
@@ -655,7 +652,6 @@
   <block id="64440bb71539a777dc59cfbda8a3e5ee" category="list-text">此 VM 类型包括本地 NVMe 存储， Cloud Volumes ONTAP 使用此存储作为 _Flash Cache_ 。Flash Cache 通过实时智能缓存最近读取的用户数据和 NetApp 元数据来加快数据访问速度。它适用于随机读取密集型工作负载，包括数据库，电子邮件和文件服务。必须在所有卷上禁用数据压缩，才能利用 Flash Cache 性能改进功能。<block ref="b6abeaa384c5670d0721bcc6323011fc" category="inline-link-rx"></block>。</block>
   <block id="9655d27d34aaf491a4183d57c0530647" category="list-text">使用单节点系统时，所有实例类型均支持高写入速度。您可以在部署期间或之后的任何时间从BlueXP启用高写入速度。<block ref="721fe5ee3bbc3d8295d8615ed77ff9be" category="inline-link-rx"></block>。</block>
   <block id="44ed637222e5d571deff68351343db0d" category="list-text">使用 HA 对时， Cloud Volumes ONTAP 支持对这些 VM 类型使用较高的写入速度。您可以在部署期间或之后的任何时间从BlueXP启用高写入速度。<block ref="721fe5ee3bbc3d8295d8615ed77ff9be" category="inline-link-rx"></block>。</block>
-  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文档</block>
   <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
   <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
   <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
@@ -675,4 +671,5 @@ The one data-serving SVM spans the entire Cloud Volumes ONTAP system (HA pair or
   <block id="e1ec06a3bd4a559443a88f1cb6736c26" category="inline-link-macro">了解如何在具有C4、M4和R4 EC2实例类型的AWS中升级</block>
   <block id="f295c0f45a8e22a4e4db9141680cce76" category="paragraph"><block ref="0fa12a627192b6cd097b12cd8088afe0" category="inline-link-macro-rx"></block>。
 <block ref="3f0e03f473a215943c109dc7746cdb60" category="inline-link-macro-rx"></block>。</block>
+  <block id="b710bbf07a9ba1fa06f2e6f4e77a42db" category="paragraph">下表中显示的带宽与每个实例类型的 AWS 限制一致。这些限制与 Cloud Volumes ONTAP 所能提供的功能不完全一致。有关预期性能，请参见<block ref="c23654021de34c23e6d408104aa3bf49" category="inline-link-rx"></block>。</block>
 </blocks>

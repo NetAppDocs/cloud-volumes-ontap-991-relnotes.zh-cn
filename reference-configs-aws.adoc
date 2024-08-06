@@ -108,7 +108,7 @@ Cloud Volumes ONTAP 支持多种类型的 EBS 磁盘以及用于数据分层的 
 
 每个 Cloud Volumes ONTAP 许可证支持不同的 EC2 实例类型。为方便起见，下表显示了每个受支持实例类型的 vCPU ， RAM 和带宽。 https://aws.amazon.com/ec2/instance-types/["有关 EC2 实例类型的最新完整详细信息，请参见 AWS"^]。
 
-下表中显示的带宽与每个实例类型的 AWS 限制一致。这些限制与 Cloud Volumes ONTAP 所能提供的功能不完全一致。有关预期性能，请参见 https://www.netapp.com/us/media/tr-4383.pdf["NetApp 技术报告 4383 ：使用应用程序工作负载在 Amazon Web Services 中对 Cloud Volumes ONTAP 进行性能特征描述"^]。
+下表中显示的带宽与每个实例类型的 AWS 限制一致。这些限制与 Cloud Volumes ONTAP 所能提供的功能不完全一致。有关预期性能，请参见 https://www.netapp.com/pdf.html?item=/media/9088-tr4383pdf.pdf["NetApp 技术报告 4383 ：使用应用程序工作负载在 Amazon Web Services 中对 Cloud Volumes ONTAP 进行性能特征描述"^]。
 
 [cols="8*"]
 |===
