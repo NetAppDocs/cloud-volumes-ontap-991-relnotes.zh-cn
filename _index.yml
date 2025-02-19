@@ -1,6 +1,6 @@
 ---
 indexpage:
-  title: "《 Cloud Volumes ONTAP 9.9.1 发行说明》"
+  title: Cloud Volumes ONTAP 9.9.1发行说明
   summary: 本发行说明介绍了 Cloud Volumes ONTAP 9.1.1 的新增功能，限制和已知问题。
   keywords: cloud volumes ontap, licensing, security, release notes, storage, data
     protection, configuration, upgrade, encryption, cvo, 991
