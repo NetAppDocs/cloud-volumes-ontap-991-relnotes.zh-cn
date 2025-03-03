@@ -82,7 +82,7 @@ link:reference-limits-gcp.html["详细了解 Google Cloud 中的磁盘限制"]�
 
 . 使用 SSD 时会启用增强的写入性能。
 . BlueXP界面显示了Standard和BYOL支持的另一种计算机类型：N1-HIGHMEM-4。但是，此计算机类型并不适用于生产环境。我们已将其仅用于特定实验室环境。
-. 有关 Google Cloud Platform 区域支持，请参见 https://cloud.netapp.com/cloud-volumes-global-regions["Cloud Volumes 全球地区"^]。
+. 有关Google Cloud Platform区域支持，请参见 https://bluexp.netapp.com/cloud-volumes-global-regions["Cloud Volumes 全球地区"^]。
 . Cloud Volumes ONTAP 可以在云提供商提供的预留或按需 VM 实例上运行。不支持使用其他 VM 实例类型的解决方案。
 
 
